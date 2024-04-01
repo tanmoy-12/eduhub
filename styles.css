@@ -1,0 +1,719 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 120px;
+}
+
+.menu ul li {
+    margin-left: 20px;
+    font-size: large;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #89d0ca;
+    color: #333;
+    padding-bottom: 0;
+}
+
+.image{
+    padding-bottom: 0;
+}
+
+.image img{
+    position: relative;
+    bottom: 0px;
+}
+
+.content {
+    flex-basis: 50%;
+    margin-left: 100px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-style: sans-serif;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.content button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    height: 630px;
+}
+
+/* Basic Styles */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+/* Header Styles */
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.image-credit {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+/* Button Styles */
+
+/* Image Container Styles */
+.image-circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Wave Styles */
+.wave svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wave path {
+    fill: white;
+}
+
+.even-wave{
+    height: 100px;
+    width: 250px;
+    display: flex;
+    margin-left: 100px;
+}
+
+/* Basic styling */
+
+  
+  .All-courses {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #89d0ca;
+  }
+  
+  /* Course section styling */
+  .course {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 100px;
+  }
+  
+  h1,
+  h2 {
+    margin: 10px 0;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .image-credit {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #89d0ca; /* green */
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px auto;
+    cursor: pointer;
+    border-width: 1px;
+  }
+  
+  /* Image section styling */
+  .image-courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+  }
+  
+  .image-circle1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image-circle1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+  .even {
+    position: relative;
+  }
+  
+  .even-wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  Wave styling
+  .wave svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+.enjoy {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 20px;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.wave3{
+    height: 100px;
+    width: 200px;
+}
+
+
+.left-enjoy {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.right-enjoy {
+    flex: 1;
+    margin-top: 100px; 
+    margin-left: 30px;
+}
+
+
+.header2 {
+    margin-bottom: 20px;
+}
+
+.enjoy-head {
+    font-size: 2em;
+    color: #333;
+}
+
+.enjoy-p {
+    font-size: 1.5em;
+    color: #666;
+}
+
+.left-para {
+    line-height: 1.5;
+    color: #666;
+    font-size: 17pxq;
+}
+
+.right-para{
+    font-size: 17px;
+}
+
+
+/* .right-para {
+    color: #666;
+}
+
+.wave {
+    width: 100%;
+} */
+
+.contact {
+    background-color: #89d0ca;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.contact-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: 228px;
+    padding-bottom: 0;
+}
+
+.contact form {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border-color: black;
+    background-color: white;
+}
+
+.ctn {
+    height: 630px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: black;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border-color: black;
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+/* creative */
+/* styles.css */
+
+.grids {
+    background-color: #dbdbdb;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.half-circle {
+    position: absolute;
+    bottom: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background-color: #439a92;
+    border-radius: 50%;
+    z-index: 0; /* Push it behind other content */
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #439a92;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box {
+    width: calc(25% - 20px);
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.number-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #89d0ca;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.heading {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.content {
+    font-size: 1em;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.learn-more:hover {
+    background-color: #ddd;
+}
+
+/* footer.css */
+
+.footer {
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
+  .footer-info {
+    flex-basis: 33%;
+    padding: 10px;
+  }
+  
+  .footer-info h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  
+  .footer-info p {
+    line-height: 1.5;
+    color: #a9a9a9;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+  }
+
+.footer-copyright p{
+    color: #a9a9a9;
+}
+
+@media (max-width: 1500px){
+    .hero{
+        padding-right: 0;
+    }
+    .image{
+        max-width: 90%;
+    }
+
+    .image img{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 1300px){
+    .container{
+        width: 100%;
+    }
+
+    .contact-in{
+        margin-left: 50px;
+    }
+
+    .grid{
+        justify-content: center;
+    }
+
+    .box{
+        width: 320px;
+        margin: 20px;
+    }
+
+    .contact form{
+        width: 90%;
+    }
+}
+
+@media (max-width: 950px){
+    .hero{
+        flex-direction: column;
+    }
+
+    .contact{
+        padding: 5px;
+    }
+
+    .content{
+        margin: 10px;
+    }
+
+    .contact-in{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 800px){
+
+    .image-circle1{
+        display: none;
+    }
+
+    .course{
+        padding: 12px;
+    }
+    .All-courses{
+        flex-direction: column;
+    }
+
+    .img-contact{
+        display: none;
+    }
+
+    .contact-in{
+        padding: 30px;
+        width: 100%;
+    }
+    
+    .contact-in form{
+        width: 70%;
+    }
+}
+
+@media (max-width: 950px){
+    .online-courses{
+        flex-direction: column;
+    }
+
+    .enjoy{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-enjoy{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 700px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .menu ul{
+        margin: 5px 0;
+    }
+    .image{
+        max-width: 100%;
+    }
+
+    .image img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px){
+    .image img{
+        /* width: 32rem;
+        height: 34rem; */
+
+        width: 70%;
+        height: 60%;
+    }
+
+    .contact-in{
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    .contact-in form{
+        width: 86%;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px){
+
+    .image-circle{
+        width: 300px;
+        height: 300px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .contact-in form{
+        width: 95%;
+    }
+}

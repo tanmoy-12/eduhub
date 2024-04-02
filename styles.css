@@ -761,6 +761,11 @@ input[type="submit"]:hover {
         width: 100%;
         z-index: 1000;
     }
+
+    .gap{
+        height: 40px;
+    }
+
 }
 
 .sidebar ul:first-child{

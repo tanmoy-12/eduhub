@@ -11,10 +11,18 @@ body {
     line-height: 1.6;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Header */
 header {
     background-color: #f2f2f2;
     padding: 30px;
+}
+
+#mobile-view{
+    display: none;
 }
 
 nav {
@@ -562,6 +570,7 @@ input[type="submit"]:hover {
     color: #a9a9a9;
 }
 
+
 @media (max-width: 1500px){
     .hero{
         padding-right: 0;
@@ -572,6 +581,14 @@ input[type="submit"]:hover {
 
     .image img{
         width: 90%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .grid{
+        width: 100%;
     }
 }
 
@@ -661,11 +678,6 @@ input[type="submit"]:hover {
 
 @media (max-width: 700px){
 
-    nav{
-        flex-direction: column;
-        align-items: center;
-        justify-content:center ;
-    }
 
     .logo{
         margin: 0;
@@ -716,4 +728,83 @@ input[type="submit"]:hover {
     .contact-in form{
         width: 95%;
     }
+}
+
+@media (max-width: 500px){
+
+    #pc-view{
+        display: none;
+    }
+
+    #mobile-view{
+        display: block;
+    }
+
+    .navbar {
+        background-color: #f2f2f2;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menu-toggler{
+        position: absolute;
+        left: 10px;
+    }
+
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+}
+
+.sidebar ul:first-child{
+    right: 0;
+}
+
+.sidebar li:hover{
+    background-color: #4b4b4b;
+}
+
+.sidebar{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    height: 100vh;
+    width: 50%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    display: none;
+    margin: 0 auto;
+    padding: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+    list-style: none;
+    padding: 5px 0 5px 20px;
+}
+
+.sidebar a{
+    width: 100%;
+    font-size: large;
+    color: #000721;
+    font-weight: 700;
+}
+
+#exit{
+    text-align: right;
+    margin-top: 12px;
+    padding-right: 20px;
+    font-size: large;
 }

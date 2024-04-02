@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eduHUB</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="pc-view">
             <div class="logo">EduHUB</div>
             <div class="menu">
                 <ul>
@@ -18,6 +21,24 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
+        </nav>
+        <nav id="mobile-view">
+            <div class="navbar">
+                <div class="menu-toggler">
+                    <h2 onclick="showSidebar()"><i class="fa-solid fa-bars"></i></h2>
+                </div>
+                <div class="logo_mobile">
+                    <h2>EduHUB</h2>
+                </div>
+            </div>
+            <ul  class="sidebar">
+                <li id="exit" onclick="hideSidebar()"><a href="#"><i class="fa-solid fa-x"></i></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
         </nav>
     </header>
     <main>
@@ -33,6 +54,7 @@
             </div>
             
         </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#89d0ca" fill-opacity="1" d="M0,128L26.7,106.7C53.3,85,107,43,160,48C213.3,53,267,107,320,138.7C373.3,171,427,181,480,181.3C533.3,181,587,171,640,138.7C693.3,107,747,53,800,58.7C853.3,64,907,128,960,144C1013.3,160,1067,128,1120,128C1173.3,128,1227,160,1280,170.7C1333.3,181,1387,171,1413,165.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
         
 
         <!-- online course -->
@@ -164,6 +186,17 @@
           <p>&copy; 2024 Sample Company. All Rights Reserved.</p>
         </div>
       </footer>
+      <script>
+        function showSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.style.display = 'flex';
+}
+
+function hideSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.style.display = 'none';
+}
+      </script>
       
 </body>
 </html>
